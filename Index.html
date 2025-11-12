@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Daily Fun Number (Demo)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎲 Daily Fun Number (Demo)</h1>
+    <p class="note">Ye demo purpose ke liye hai — bina paise ke, sirf fun. No gambling / betting.</p>
+
+    <div class="card">
+      <h2>Today's Date</h2>
+      <div id="todayDate" class="big"></div>
+
+      <h2>Today's Result</h2>
+      <div id="todayResult" class="result"></div>
+      <button id="refreshBtn">Show Again</button>
+    </div>
+
+    <div class="card">
+      <h2>Check Result for Any Date</h2>
+      <input type="date" id="pickDate">
+      <button id="checkBtn">Check</button>
+      <div id="pickedResult" class="result small"></div>
+    </div>
+
+    <div class="card">
+      <h2>Last 7 Days</h2>
+      <ul id="last7"></ul>
+    </div>
+
+    <footer>
+      <small>Made for demo / educational use. Do not use for gambling.</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
